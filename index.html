@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">  <!--para invocar estilos, usar siempre-->   
+
+    <script defer  src="funciones.js"></script>
+
+</head>
+<body class="body1" background="pizarron.jpg">
+
+    <header class="header1"><h1>¡NOTILLAS!</h1></header>
+    
+    <div class="cuadro1" >
+        
+        <!--   -->
+
+        <header class="header2">
+            <input class="elementos" type="text" id="tit" placeholder="Título">
+        
+            <input class="elementos" type="text" id="cont" placeholder="Contenído">
+
+            <select class="categoria" name="transporte" id="selec" placeholder="Categoria">
+
+                <option value=""></option>
+
+                <option>Escuela</option>
+                
+                <option>Trabajo</option>
+                
+                <option>Hogar</option>
+
+                <option>Hobbies</option>
+
+                
+                
+            </select> 
+
+            <!--BOTÓN PARA VALIDAR DATOS-->
+         
+            <button class="boton" onclick="obtener()">AGREGAR NOTA</button>  <!--LLAMAMOS A LA FUNCIÓN obtener()-->
+        </header>
+            
+        <h5>Agrega algunas notitas, mi estimado precioso... :)  </h5>
+         
+        
+        <div class="notas">  <!-- esto se manda llamar en el Scrypt -->
+            
+
+            <!--escoger color para las notas:      -->
+            
+
+            <!-- <div class="nota">
+                <input type="text">
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <div class="catnota">sofjvjn</div>
+
+                <div class="borrar" onclick="borrar(this)">X</div>
+
+
+            </div>  -->
+            
+
+        </div>
+       
+
+        
+    </div>
+
+
+
+</body>
+</html>
